@@ -39,7 +39,7 @@ func helloHandler(w http.ResponseWriter, r *http.Request) {
 		email = "Guest@guejkknkst.com"
 	}
 
-	emailToVerify := "achuulimagbama@gmail.com"
+	emailToVerify := email
 
 	var result string
 	var status int
