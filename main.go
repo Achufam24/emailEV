@@ -36,7 +36,7 @@ type jsonResponse struct {
 func helloHandler(w http.ResponseWriter, r *http.Request) {
 	email := r.URL.Query().Get("email")
 	if email == "" {
-		email = "Guest@guest.com"
+		email = "Guest@guejkknkst.com"
 	}
 
 	emailToVerify := "achuulimagbama@gmail.com"
